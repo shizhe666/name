@@ -1,0 +1,10 @@
+1.数据库操作需要掌握创建数据库、展示数据库、和删除数据
+	--show databases;
+	--create database;
+	--drop database;
+2.主键 primary key（当前谁是主键）
+3.创建表的时候可能需要创建主键，主键就是唯一的标识如你的身份证号码，
+4.constraint f_id foreign ken （id） references zhujian (id)
+ 创建一个外键      关联着id       找到另外一个表的id
+5.unique唯一性约束的标识
+创建一张学生表存在id学号 

@@ -1,0 +1,155 @@
+1.定义数组的三种方式
+			1:  var arr=new Array(2,34,4,4);
+				document.write(arr);
+			
+			
+			2:   var arrr=[2,3,4];
+				alert(arrr.length);
+				
+				
+			3:	var arr2=new Array(5);
+					arr2[0]=1;
+					arr2[1]=2;
+					arr2[2]=3;
+					arr2[3]=4;
+					arr2[5]=5;
+					alert(arr2);	
+
+2.九九乘法表的演示
+				for(var i=1;i<10;i++){
+					for(var j=1;j<=i;j++){
+						document.write(j+"*"+i+"="+j*i+"&nbsp;&nbsp");
+					}
+					document.write("</br>");		
+				}
+
+3.js的语句判断
+		//==指的是值相等即可，===必须是值和类型都相同否则出现NaN表示不能识别
+		1：	var i=2;
+			if(i==2){
+			alert("2");
+			}
+
+		2：		var j=3;
+				switch(j){
+					case 1:
+						alert("1");
+						break;
+				case 2:
+						alert("2");
+						break;
+				case 3:
+						alert("3");
+						break;
+				default:
+						alert("other");
+	}
+4.js的循环语句
+
+			1:	var i=344;
+				while(i>1){
+				alert(i);
+				i--;
+				}
+			2:
+				for(var i=1;i<4;i++){
+				alert(i);
+			
+			}
+
+5.js的运算符
+
+			1：在javascript中没有小数和整数之分，233/1000*1000的结果还是233
+			   这点和Java的区别很大，在Java中的结果为0
+			2:x+=y表示的意思是x=x+y
+			3：注意字符串想加减意义不同
+				比如一个string字符串var str="123";
+							alert(str+1);
+							其结果为1231
+							alert（str-1）；
+							其结果为122
+				还有一种情况	var str="abd";
+							就不能用减法
+				加法表示的是字符串的拼接，减法只适用于数字是真正的加减法；
+			4：当布尔boolean类型的true默认为1再进行加减法
+					      false默认为0；
+
+
+6.js的函数（三种）
+			
+			1：function 方法名（参数列表）{
+					方法体
+					返回值可有可无
+					}
+			例	function add(i, j){
+				alert(i+j);
+				}
+				add(1,2);
+			
+
+				例	function add(i,j){
+					var sum=i+j;
+					alert(sum);
+					
+					}
+					add(1,2);
+			
+
+			2:
+		
+				var add=function(a,b){
+					var sun=a+b;
+					alert(sun);
+					}
+					add(3,2);
+			
+			3:
+
+
+7.JS的string对象
+
+			属性：
+				length：字符串的长度
+					var str=“adbd”；
+					document.write（str.length）；
+					输出的就是str字符串的长度
+			方法：
+				与HTML相关的方法：
+					1.document.write（str.bold（））；
+						为字符串加粗
+					2.document.write（str.fontcolor（“green”））；
+						为字符串设置颜色
+					3.document.write（str.fontsize（2））；
+						为字符串设置大小
+					4.document.write（str.link（“hollow.HTML”））；
+						将字符串改成超链接形式，hollow.HTML是一个新的页面 
+					5.document.write（str.sub（））；下标
+					  document.write（str.sup（)）；上标
+						
+				与Java相关的方法：
+					1.concat方法
+						var str1=“df”；
+						var str2=“ffe”；
+						document.write（str1.concat（str2））；
+						显示的内容是dfffe 这就是所谓的字符串的连接
+					2.			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
